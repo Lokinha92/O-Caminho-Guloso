@@ -10,7 +10,7 @@ int main() {
     int cont_matriz = 1;
     vector<int> elementos;
 
-    doc.open("input.data");
+    doc.open("./dataset/input.data");
     if(doc.is_open()){
         doc >> linha >> coluna;
         while(doc >> aux){
